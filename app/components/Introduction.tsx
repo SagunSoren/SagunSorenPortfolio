@@ -55,7 +55,7 @@ const Introduction = () => {
           </div>
 
           <p className="text-gray-400 mt-5">Tools i use</p>
-          <div className="flex gap-5">
+          <div className="flex flex-wrap gap-5">
             <div className="border-1 items-center justify-center flex h-18 w-18 rounded-lg border-gray-300">
               <Image alt="react" className="" src={react}></Image>
             </div>

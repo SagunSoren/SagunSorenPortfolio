@@ -10,8 +10,8 @@ const Portfolio = () => {
         heading="My Projects"
         desc="These are some of the projects that I've made"
       />
-      <div className="flex justify-center">
-        <div className="grid grid-cols-3 gap-8">
+      <div className="flex flex-wrap justify-center">
+        <div className="grid grid-cols-3 max-md:grid-cols-2 md:gap-8">
           <Card3
             img="realestate.png"
             title="Real Estate Project"
