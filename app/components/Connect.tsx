@@ -16,7 +16,7 @@ const Connect = () => {
         method="POST"
         className="dark:text-neutral-300 px-2"
       >
-        <div className="flex justify-center items-center gap-10 ">
+        <div className="flex md:flex-row flex-col justify-center items-center gap-10 ">
           <input
             name="name"
             type="text"
