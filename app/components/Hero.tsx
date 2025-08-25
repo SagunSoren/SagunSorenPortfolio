@@ -15,7 +15,7 @@ const Hero = () => {
           ></Image>
         </div>
         <div className="dark:text-neutral-300 flex flex-col gap-5">
-          <p>Hi! I'm Sagun Soren 👋</p>
+          <p>Hi! I&apos;m Sagun Soren 👋</p>
           <h1 className="text-5xl">frontend web developer based in India.</h1>
           <p className="text-center tracking-wider">
             I am a frontend developer from India, specializing in building fast,

@@ -7,7 +7,6 @@ interface CardProp {
 }
 
 const Card3 = (props: CardProp) => {
-  const array = props.used;
   return (
     <a href={props.link} target="_blank">
       <div className="max-w-sm rounded overflow-hidden shadow-lg">

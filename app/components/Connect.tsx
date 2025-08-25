@@ -1,9 +1,4 @@
 import Headings from "./Headings";
-import phoneImage from "../../public/phoneimage.png";
-import Image from "next/image";
-import { RiCompassDiscoverFill } from "react-icons/ri";
-import Card2 from "./Card2";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa";
 
 const Connect = () => {
