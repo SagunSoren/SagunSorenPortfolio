@@ -23,21 +23,22 @@ const Connect = () => {
       >
         <div className="flex justify-center items-center gap-10 ">
           <input
-          name="name"
+            name="name"
             type="text"
             className="border-1 w-80 h-10 p-2 rounded-lg"
             placeholder="Enter your name"
           />
           <input
-          name="email"
-            type="email" required
+            name="email"
+            type="email"
+            required
             className="border-1 w-80 h-10 p-2 rounded-lg"
             placeholder="Enter your email"
           />
         </div>
         <div className="flex justify-center ">
           <textarea
-          name="message"
+            name="message"
             className="border-1 w-170 h-50 mt-10 text-left align-top p-5 rounded-lg"
             placeholder="Enter your message"
           />
@@ -45,7 +46,7 @@ const Connect = () => {
         <div className="flex justify-center items-center w-full mt-10 ">
           <button
             type="submit"
-            className="px-8 py-5 flex items-center gap-2 bg-black rounded-full  text-white text-sm"
+            className="px-8 py-5 flex items-center hover:cursor-pointer gap-2 bg-black rounded-full  text-white text-sm"
           >
             Submit now
             <FaArrowRight />

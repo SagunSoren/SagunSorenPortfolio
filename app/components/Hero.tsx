@@ -31,10 +31,12 @@ const Hero = () => {
             connect with me
             <FaArrowRight />
           </a>
-          <button className="dark:border-neutral-300 dark:text-neutral-300 flex items-center gap-2 border-1 px-5 py-4 rounded-full">
-            my resume
-            <AiOutlineDownload className="text-xl" />
-          </button>
+          <a href="SagunResume.pdf" download>
+            <button className="dark:border-neutral-300 dark:text-neutral-300 hover:cursor-pointer flex items-center gap-2 border-1 px-5 py-4 rounded-full">
+              my resume
+              <AiOutlineDownload className="text-xl" />
+            </button>
+          </a>
         </div>
       </div>
     </div>
