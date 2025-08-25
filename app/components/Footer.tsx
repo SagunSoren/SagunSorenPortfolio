@@ -16,8 +16,8 @@ const Footer = () => {
         </p>
         <div className="h-[1px] bg-gray-400 w-full mt-10"></div>
         <div className="flex justify-between w-full text-gray-400 mt-2">
-          <p>© 2025 William Mark. All rights reserved.</p>
-          <div className="flex">
+          <p>© made by sagun.</p>
+          <div className="flex md:gap-6 gap-0">
             <p>Terms of Services</p>
             <p>Privacy Policy</p>
             <p>Connect with me</p>
